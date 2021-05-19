@@ -7,7 +7,335 @@ minimum-scale=1.0, width=device-width">
     <meta name="author" content="HADAN">
     <title>parkjusang | Portfolio</title> 
 </head>
+<style>
+  *{
+        padding: 0;
+        margin: 0;
+    }
+    .introDiv{
+        width: inherit;
+        height: 200px;
+        border: 1px solid red;
+    }
+    .intro{
+        width: 500px;
+        height: inherit;
+        border: 1px solid black;
+       margin: auto;
+    }
+    .inner-intro{
+        width: inherit;
+        height: 100px;
+        
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 4vw;
+        font-weight: 500;
+        font-family: 'Canvas', sans-serif;
+        line-height: 90px;
+        color: #222;
+        text-align: center;
+        
+    }
+    .firstProjectDiv{
+        width: inherit;
+        height: 740px;
+        position: absolute;
+        display: flex;
+    }
+    .myPicDiv{
+        position: relative;
+        width: 960px;
+        height: inherit;
+        
+    }
+    .myIntroDiv{
+        position: relative;
+        width: 960px;
+        height: inherit;
+       
+    }
+    .myPic{
+        position: relative;
+        width: 400px;
+        height: 400px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 170px;
+        background-image: url('Park.jpg');
+        background-size: 100% 100%;
+    }
+    .out-box{
+        width: 90%;
+        height: 660px;
+        
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .myselfDiv{
+        width: inherit;
+        height: 50px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 4vh;
+        font-family: 'Canvas', sans-serif;
+        font-weight: 700;
+        color: #222;
+    }
+    .myselfBox{
+        width: inherit;
+        height: 180px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .myselfWrite{
+        width: 85%;
+        height: 30px;
+        
+        margin-top: 10px;
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Iropke Batang', serif;
+        color: #555;
+        
+    }
+    .myselfWrite1{
+        width: 85%;
+        height: 60px;
+        
+        
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Iropke Batang', serif;
+        color: #555;
+    }
+    .myselfWrite2,.myselfWrite3{
+        width: 85%;
+        height: 30px;
+       
+        
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Iropke Batang', serif;
+        color: #555;
+        
+    }
+    .useSkill{
+        width: inherit;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 4vh;
+        font-family: 'Canvas', sans-serif;
+        font-weight: 700;
+        color: #222;
+    }
+    .useTools{
+        width: inherit;
+        height: 372px;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .serverDiv,.backDiv,.databaseDiv,.frontDiv{
+        width: 100%;
+        height: 91px;
+        border: 1px solid blueviolet;
+        display: flex;
+    }
+    .server-l,.back-l,.database-l,.front-l{
+        width: 20%;
+        height: inherit;
+        border: 1px solid red;
+        line-height: 90px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Iropke Batang', serif;
+        color: #555;
+    }
+    .server-r,.back-r,.database-r,.front-r{
+        width: 80%;
+        height: inherit;
+        border: 1px solid red;
+        display: flex;
+    }
+    .serPic-1{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('centOS.jpg');
+        background-size: 100% 100%;
+    }
+    .serPic-2{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('vmware.jpg');
+        background-size: 100% 100%;
+    }
+    .serPic-3{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('tomcat.jpg');
+        background-size: 100% 100%;
+    }
+    .backPic-1{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('java.jpg');
+        background-size: 100% 100%;
+    }
+    .backPic-2{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('spring.jpg');
+        background-size: 100% 100%;
+    }
+    .backPic-3{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('mybatis.jpg');
+        background-size: 100% 100%;
+    }
+    .dataPic-1{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('oracle.jpg');
+        background-size: 100% 100%;
+    }
+    .frontPic-1{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('html.jpg');
+        background-size: 100% 100%;
+    }
+    .frontPic-2{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('css.jpg');
+        background-size: 100% 100%;
+    }
+    .frontPic-3{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('js.jpg');
+        background-size: 100% 100%;
+    }
+    .frontPic-4{
+        margin-top: 4px;
+        margin-left: 7px;
+        width: 16%;
+        height: 80px;
+        background-image: url('ajax.jpg');
+        background-size: 100% 100%;
+    }
+</style>
+<body style="background-color: rgb(235, 227, 219);">
+  <div class="introDiv">
+            <div class="intro">
+                <div class="inner-intro">
+                    PORTFOLIO
+                </div>
+            </div>
+        </div>
+        <div class="firstProjectDiv">
+            <div class="myPicDiv">
+                <div class="myPic">
 
-<body>
-  <h2>하이하이<h2>
+                </div>
+            </div>
+            <div class="myIntroDiv">
+                <div class="out-box">
+                    <div class="myselfDiv">
+                        A BIT ABOUT MY SELF
+                    </div>
+                    <div class="myselfBox">
+                        <div class="myselfWrite">
+                            기계과 전공으로 대학생활을 하던 중 프로그래밍언어를 처음 접해봤습니다.
+                        </div>
+                        <div class="myselfWrite1">
+                            처음 접한 프로그래밍언어는 낯설고 어려웠지만, 하나하나 문제를 풀어가며 느꼈던 성취감이 강하게 남아있었던 것 같았습니다.
+                        </div>
+                        <div class="myselfWrite2">
+                            졸업을 하고 일을 하던 중 그때의 기억이 떠올라 제대로 배워보자는 생각으로 퇴사를 했습니다.
+                        </div>
+                        <div class="myselfWrite3">
+                            다양한 분야가 있지만 사이트를 직접 만드는 것에 흥미를 느껴 웹프로그래밍을 공부했습니다.
+                        </div>
+                    </div>
+                    <div class="useSkill">
+                        USE TOOLS
+                    </div>
+                    <div class="useTools">
+                        <div class="serverDiv">
+                            <div class="server-l">
+                                SERVER
+                            </div>
+                            <div class="server-r">
+                                <div class="serPic-1"></div>
+                                <div class="serPic-2"></div>
+                                <div class="serPic-3"></div>
+                            </div>
+                        </div>
+                        <div class="backDiv">
+                            <div class="back-l">
+                                BACKEND
+                            </div>
+                            <div class="back-r">
+                                <div class="backPic-1"></div>
+                                <div class="backPic-2"></div>
+                                <div class="backPic-3"></div>
+                            </div>
+                        </div>
+                        <div class="databaseDiv">
+                            <div class="database-l">
+                                DATABASE
+                            </div>
+                            <div class="database-r">
+                                <div class="dataPic-1"></div>
+                            </div>
+                        </div>
+                        <div class="frontDiv">
+                            <div class="front-l">
+                                FRONTEND
+                            </div>
+                            <div class="front-r">
+                                <div class="frontPic-1"></div>
+                                <div class="frontPic-2"></div>
+                                <div class="frontPic-3"></div>
+                                <div class="frontPic-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
