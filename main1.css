@@ -54,7 +54,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 170px;
-        background-image: url('./imgfolder/Park.jpg');
+        background-image: url('imgfolder/Park.jpg');
         background-size: 100% 100%;
     }
     .out-box{
