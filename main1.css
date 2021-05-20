@@ -54,7 +54,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 170px;
-        background-image: url('../imgfolder/Park.jpg');
+        background-image: url('./imgfolder/Park.jpg');
         background-size: 100% 100%;
     }
     .out-box{
@@ -164,7 +164,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('../imgfolder/centOS.jpg');
+        background-image: url('./imgfolder/centOS.jpg');
         background-size: 100% 100%;
     }
     .serPic-2{
