@@ -164,7 +164,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('centOS.jpg');
+        background-image: url('../imgfolder/centOS.jpg');
         background-size: 100% 100%;
     }
     .serPic-2{
@@ -172,7 +172,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('vmware.jpg');
+        background-image: url('../imgfolder/vmware.jpg');
         background-size: 100% 100%;
     }
     .serPic-3{
@@ -180,7 +180,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('tomcat.jpg');
+        background-image: url('../imgfolder/tomcat.jpg');
         background-size: 100% 100%;
     }
     .backPic-1{
@@ -188,7 +188,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('java.jpg');
+        background-image: url('../imgfolder/java.jpg');
         background-size: 100% 100%;
     }
     .backPic-2{
@@ -196,7 +196,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('spring.jpg');
+        background-image: url('../imgfolder/spring.jpg');
         background-size: 100% 100%;
     }
     .backPic-3{
@@ -204,7 +204,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('mybatis.jpg');
+        background-image: url('../imgfolder/mybatis.jpg');
         background-size: 100% 100%;
     }
     .dataPic-1{
@@ -212,7 +212,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('oracle.jpg');
+        background-image: url('../imgfolder/oracle.jpg');
         background-size: 100% 100%;
     }
     .frontPic-1{
@@ -220,7 +220,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('html.jpg');
+        background-image: url('../imgfolder/html.jpg');
         background-size: 100% 100%;
     }
     .frontPic-2{
@@ -228,7 +228,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('css.jpg');
+        background-image: url('../imgfolder/css.jpg');
         background-size: 100% 100%;
     }
     .frontPic-3{
@@ -236,7 +236,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('js.jpg');
+        background-image: url('../imgfolder/js.jpg');
         background-size: 100% 100%;
     }
     .frontPic-4{
@@ -244,7 +244,7 @@
         margin-left: 7px;
         width: 16%;
         height: 80px;
-        background-image: url('ajax.jpg');
+        background-image: url('../imgfolder/ajax.jpg');
         background-size: 100% 100%;
     }
     .firstProjectBox{
@@ -275,7 +275,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 73px;
-        background-image: url('koyote.jpg');
+        background-image: url('../imgfolder/koyote.jpg');
         background-size: 100% 100%;
     }
     .projectRight-outBox{
